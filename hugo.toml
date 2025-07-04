@@ -1,0 +1,4 @@
+baseURL = 'https://khoancatbetong.com/'
+languageCode = 'vi'
+title = 'Khó ăn cát bê tông'
+theme = 'ananke'
