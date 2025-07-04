@@ -22,5 +22,12 @@
       <guid>https://khoancatbetong.com/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;sự-giới-thiệu&#34;&gt;Sự giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Đây là chữ &lt;strong&gt;in đậm&lt;/strong&gt;, và chứ sau này là &lt;em&gt;in nghiêng&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hãy ghé thăm website &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; để xem điều thú vị.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Bài viết thứ 3 nhưng vẫn gà mờ</title>
+      <link>https://khoancatbetong.com/posts/bai-3-mot-ngay-moi/</link>
+      <pubDate>Tue, 03 Jun 2025 08:40:39 +0700</pubDate>
+      <guid>https://khoancatbetong.com/posts/bai-3-mot-ngay-moi/</guid>
+      <description>&lt;h2 id=&#34;bài-3-làm-lại-từ-đầu&#34;&gt;Bài 3, làm lại từ đầu&lt;/h2&gt;&#xA;&lt;p&gt;Học làm quen với Github và deploy qua những lệnh git. Bước đầu không tìm thấy sự thành công nào bởi vì có quá nhiều cái chưa từng học, chưa từng biết bao giờ.&lt;/p&gt;&#xA;&lt;p&gt;Giờ đây lại thêm có Markdown nữa, một định dạng nghe danh từ lâu nhưng thực sự chưa từng dùng lần nào.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
