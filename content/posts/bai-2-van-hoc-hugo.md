@@ -7,4 +7,6 @@ title = 'Bai 2 Van Hoc Hugo'
 
 Đây có thể nói rằng việc **học lại từ đầu** là sự khó khăn. Những gì tui biết đều vô dụng.
 
+![Alt text](/images/sample-img.png "A sample img")
+
 Hãy ghé thăm trang [KACBT](https://khoancatbetong.com) để xem tui học mỗi ngày!
