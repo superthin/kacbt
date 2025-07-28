@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Khó ăn cát bê tông</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://khoancatbetong.com/posts/</link>
     <description>Recent content in Posts on Khó ăn cát bê tông</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <lastBuildDate>Fri, 04 Jul 2025 07:52:04 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jul 2025 12:30:20 +0700</lastBuildDate>
+    <atom:link href="https://khoancatbetong.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bai 2 Van Hoc Hugo</title>
-      <link>http://localhost:1313/posts/bai-2-van-hoc-hugo/</link>
-      <pubDate>Fri, 04 Jul 2025 07:52:04 +0700</pubDate>
-      <guid>http://localhost:1313/posts/bai-2-van-hoc-hugo/</guid>
-      <description>&lt;h2 id=&#34;bài-2---sự-trở-lại-khó-khăn-chậm-chạp&#34;&gt;Bài 2 - sự trở lại khó khăn, chậm chạp&lt;/h2&gt;&#xA;&lt;p&gt;Đây có thể nói rằng việc &lt;strong&gt;học lại từ đầu&lt;/strong&gt; là sự khó khăn. Những gì tui biết đều vô dụng.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/sample-img.png&#34; alt=&#34;Alt text&#34; title=&#34;A sample img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hãy ghé thăm trang &lt;a href=&#34;https://khoancatbetong.com&#34;&gt;KACBT&lt;/a&gt; để xem tui học mỗi ngày!&lt;/p&gt;</description>
+      <title>Bài 4: bắt đầu hành trình mới từ việc học từ đầu</title>
+      <link>https://khoancatbetong.com/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</link>
+      <pubDate>Tue, 08 Jul 2025 12:30:20 +0700</pubDate>
+      <guid>https://khoancatbetong.com/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</guid>
+      <description>&lt;p&gt;Có hơn 3 năm làm việc trong lĩnh vực web, từ đơn giản nhất như viết một số đoạn CSS để trang trí trang cho đến phát triển một số ứng dụng sử dụng nội bộ, cung cấp dịch vụ cho khách,&amp;hellip; nhưng giờ đây KACBT phải học hỏi lại từ đầu.&lt;/p&gt;&#xA;&lt;p&gt;Ai đó đã nói việc quên đi mọi thứ đã học, đã không còn và học cái mới là điều khó khăn. Quả đúng như vậy thật.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bài viết thứ 3 nhưng vẫn gà mờ</title>
-      <link>http://localhost:1313/posts/bai-3-mot-ngay-moi/</link>
-      <pubDate>Tue, 03 Jun 2025 08:47:39 +0700</pubDate>
-      <guid>http://localhost:1313/posts/bai-3-mot-ngay-moi/</guid>
-      <description>&lt;h2 id=&#34;bài-3-làm-lại-từ-đầu&#34;&gt;Bài 3, làm lại từ đầu&lt;/h2&gt;&#xA;&lt;p&gt;Học làm quen với Github và deploy qua những lệnh git. Bước đầu không tìm thấy sự thành công nào bởi vì có quá nhiều cái chưa từng học, chưa từng biết bao giờ.&lt;/p&gt;&#xA;&lt;p&gt;Giờ đây lại thêm có Markdown nữa, một định dạng nghe danh từ lâu nhưng thực sự chưa từng dùng lần nào.&lt;/p&gt;</description>
+      <title>Bài 3: tâm tình của một gã... hề</title>
+      <link>https://khoancatbetong.com/posts/bai-3-tam-tinh-cua-1-ga-he/</link>
+      <pubDate>Sun, 08 Jun 2025 11:25:39 +0700</pubDate>
+      <guid>https://khoancatbetong.com/posts/bai-3-tam-tinh-cua-1-ga-he/</guid>
+      <description>&lt;p&gt;Khi bạn không có ý định trở thành một chú hề nhưng trong cuộc đời lắm lúc bạn trở thành chú hề. Àh, nhưng đây là tui nói tui, hổng phải nói bạn đâu, đừng giựt mình.&lt;/p&gt;&#xA;&lt;p&gt;Chuyện này là sao?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bafi </title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Bài 2: thử sử dụng Hugo để làm web</title>
+      <link>https://khoancatbetong.com/posts/bai-2-thu-su-dung-hugo/</link>
+      <pubDate>Thu, 05 Jun 2025 09:50:04 +0700</pubDate>
+      <guid>https://khoancatbetong.com/posts/bai-2-thu-su-dung-hugo/</guid>
+      <description>&lt;p&gt;Đây có thể nói rằng việc &lt;strong&gt;học lại từ đầu&lt;/strong&gt; là sự khó khăn. Những gì tui biết đều vô dụng.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://khoancatbetong.com/images/sample-img.png&#34; alt=&#34;Alt text&#34; title=&#34;A sample img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hãy ghé thăm trang &lt;a href=&#34;https://khoancatbetong.com&#34;&gt;KACBT&lt;/a&gt; để xem tui học mỗi ngày!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bài 1: sự trở lại từ đống tro tàn</title>
+      <link>https://khoancatbetong.com/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</link>
       <pubDate>Tue, 03 Jun 2025 08:40:39 +0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;sự-giới-thiệu&#34;&gt;Sự giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Đây là chữ &lt;strong&gt;in đậm&lt;/strong&gt;, và chứ sau này là &lt;em&gt;in nghiêng&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hãy ghé thăm website &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; để xem điều thú vị.&lt;/p&gt;</description>
+      <guid>https://khoancatbetong.com/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</guid>
+      <description>&lt;p&gt;Trang web KACBT đã chết queo từ mấy tháng nay nên tui cần làm lại ngay từ đầu. Sau đây là một số dự định của tui ở thời điểm này:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Làm lại trang web dưới dạng web tĩnh để quên đi nỗi lo về nhiễm mã độc, cập nhật các phiên bản về CMS, ngôn ngữ kịch bản, cơ sở dữ liệu,&amp;hellip; rất phức tạp cho một blog cá nhân.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

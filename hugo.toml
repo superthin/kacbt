@@ -2,3 +2,8 @@ baseURL = 'https://khoancatbetong.com/'
 languageCode = 'vi'
 title = 'Khó ăn cát bê tông'
 theme = 'mainroad'
+
+[Params.logo]
+  subtitle = "Hướng dẫn làm Web từ số không" # Logo subtitle
+  image = "img/logo.png"
+
