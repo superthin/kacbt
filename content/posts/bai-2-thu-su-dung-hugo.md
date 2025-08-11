@@ -6,6 +6,6 @@ draft = false
 
 Đây có thể nói rằng việc **học lại từ đầu** là sự khó khăn. Những gì tui biết đều vô dụng.
 
-![Alt text](/images/sample-img.png "A sample img")
+![Alt text](/images/2025/sample-img.png "Có vài con cá bơi lội")
 
 Hãy ghé thăm trang [KACBT](https://khoancatbetong.com) để xem tui học mỗi ngày!
