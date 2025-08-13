@@ -4,6 +4,6 @@ This is content for static website at [khoancatbetong.com](https://khoancatbeton
 
 You can access this site (Vietnamese) to learn basic HTML
 
-Thanks for your visting!
+Thanks for your visiting!
 
 
