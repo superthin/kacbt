@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Khó ăn cát bê tông</title>
-    <link>https://khoancatbetong.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Khó ăn cát bê tông</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <atom:link href="https://khoancatbetong.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

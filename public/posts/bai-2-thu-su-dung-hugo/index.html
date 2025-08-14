@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="vi">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bài 2: thử sử dụng Hugo để làm web - Khó ăn cát bê tông</title>
@@ -15,7 +15,6 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
 		
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EH4SHPH0LN"></script>
@@ -35,7 +34,7 @@
 	<div class="logo logo--mixed">
 		<a class="logo__link" href="/" title="Khó ăn cát bê tông" rel="home">
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/img/logo.png">
+					<img class="logo__img" src="/img/logo.png" alt="Logo KACBT" width="48" height="48">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">Khó ăn cát bê tông</div>
 					<div class="logo__tagline">Hướng dẫn làm Web từ số không</div>
@@ -92,12 +91,17 @@
 		</header>
 		<div class="content post__content clearfix">
 			<p>Đây có thể nói rằng việc <strong>học lại từ đầu</strong> là sự khó khăn. Những gì tui biết đều vô dụng.</p>
-<p>Làm lại web lần này tui quyết râm nói không với web động nó khiến tui mất quá nhiêu năng lượng cho việc xử lý nhiều thứ liên quan đến ngôn ngữ kịch bản PHP, nền tảng quản lý nội dung WordPress và nhiều thứ linh tinh khác.</p>
-<p>Kết quả là loay hoay với vấn đề kỹ thuật mà chẳng viết được những bài viết chất lượng. Mục đích và phương tiện bị nhầm lẫn với nhau khiến cho blog trôg chẳng có ra blog một chút nào mà nó trở thành một nơi đẻ thử nghiệm các thứ kỹ thuật về web. Như vậy, hoá ra có cái xe máy để đi lại thì trở thành anh thợ sửa xe, thật là chuyện chẳng hiểu nổi.</p>
-<p>Việc làm web tĩnh nghe vậy chứ cũng không đơn giản tí nào bởi vì thời đại của web tĩnh qua từ lâu nên lặp lại nó sẽ vô cùng nản lòng nếu không áp dụng cái gì đó hiện đại, phù hợp với thời điểm hiện tại.</p>
-<p>Vậy là tui phải tìm một nền tảng để từ đó nó sinh ra nọi dung tĩnh, và bạn đọc ở đâu đó trên đây đó ngay trò bài viêt này chính là Hugo.</p>
-<p>Vậy là từ nay gặp kiếp nạn thay vì sử dụng nền tảng CMS để viết bài rồi xuất bản thì dùng trình soạn thảo văn bản thô để soạn file MarkDown rồi chạy Hugo để sinh ra web tĩnh. Khi có web tĩnh rồi phải dùng git để commit lên Giithub để xuất bản bài viết.</p>
-<p>Tính ra, có khi ca này tui lại rơi vào tình cảnh &ldquo;tránh vỏ dưa gặp vỏ dừa&rdquo;. Chưa biết chuyện gì xảy ra, cuộc đời luôn là câu chuyện &ldquo;Tái ông mất ngựa&rdquo; - nào hãy đợi xem sao nhé.</p>
+<p>Làm lại web lần này tui muốn &ldquo;nói không&rdquo; với web động. Nó khiến tui mất quá nhiêu năng lượng cho việc xử lý nhiều thứ liên quan đến ngôn ngữ kịch bản PHP, nền tảng quản lý nội dung WordPress và nhiều thứ linh tinh khác,&hellip; Tui còn bị một số kẻ dã tâm muốn xoá sổ website bằng cách tấn công từ chối dịch vụ hoặc cố khai thác lỗ hổng bảo mật.</p>
+<p>Kết quả là loay hoay với vấn đề kỹ thuật trong đằng đẵng nhiều năm mà chẳng viết được những bài viết nào chất lượng. Mục đích và phương tiện bị nhầm lẫn với nhau. Điều này khiến cho blog trông chẳng ra blog chút nào, trở thành một nơi thử nghiệm các thứ kỹ thuật về web. Như vậy, hoá ra không khác gì việc tui có cái xe máy để đi lại, để rồi chưa thấy chinh phục được cung đường nào ngoài việc tui đã trở thành một&hellip; anh thợ sửa xe máy. Chuyện chẳng hiểu nổi!</p>
+<p>Bài này rất vớ vẩn, nội dung của nó nhạt toẹt, thông tin dùng Hugo đã được cung cấp ở bài viết trước đó rồi. Nhưng dù sao cũng cho bạn biết sơ qua rằng Hugo là sinh ra HTML nhanh chóng lắm, soạn bài với file MarkDown, chỉ save bài một phát là mở qua trình duyệt trang web đã cập nhật cho bạn xem rồi, trong vòng 1 giây.</p>
+<p><img src="/images/2025/hugo-qua-nhanh.png" alt="Hugo quá nhanh" title="Tốc độ Hugo đáng nể"></p>
+<p>Việc làm web tĩnh nghe vậy chứ cũng không đơn giản tí nào. Thời đại của web tĩnh qua từ lâu nên lặp lại nó sẽ vô cùng nản lòng nếu không áp dụng cái gì đó hiện đại, phù hợp với thời điểm hiện tại.</p>
+<p>Vậy là tui phải tìm một nền tảng để từ đó nó sinh ra HTML tĩnh. Bạn đã thấy ở <a href="/posts/bai-1/">Bài 1</a> rằng tui chọn Hugo để tạo HTML thay vì ngồi gõ từng dòng HTML, chỉ ngồi đánh máy nội dung bài viết và xuất bản.</p>
+<p><img src="/images/2025/web-tinh-hay-web-dong.jpg" alt="Web tĩnh hay web động" title="So sánh web tĩnh và động"></p>
+<p>Vậy là từ nay từ bỏ kiếp nạn vọc CMS như Drupal, Joomla!, WordPress, Django, DNN,&hellip; để ôm lấy trình soạn thảo file thô dùng cú pháp MarkDown để viết bài, sau khi ưng ý chạy lệnh hugo để sinh ra web tĩnh. Cuối cùng, dùng lệnh git để commit lên Github nhằm xuất bản các bài viết. Khi đang gõ dòng này, tui chợt nhận ra, việc này cũng nhọc nhằn không kém việc soạn bài và bấm nút xuất bản hoặc nút lưu trên các CMS từng thử trước đây.</p>
+<p>Tính ra, có khi ca này tui lại rơi vào tình cảnh &ldquo;<em>tránh vỏ dưa gặp vỏ dừa</em>&rdquo;. Chưa biết chuyện gì xảy ra, cuộc đời luôn là câu chuyện &ldquo;Tái ông mất ngựa&rdquo; - nào hãy đợi xem sao nhé.</p>
+<p><img src="/images/2025/disqus-logo.png" alt="Logo của dịch vụ Disqus" title="Logo của Disqus"></p>
+<p>Còn một điều nữa đó là web tĩnh làm cho việc comment hoặc tạo form gần như bất khả thi. May sao, tui kịp nhìn thấy Hugo có hỗ trợ Disqus nên giờ đây bạn có thể comment ngay bên dưới bài viết này.</p>
 <p>Hãy ghé thăm trang <a href="https://khoancatbetong.com">KACBT</a> để xem tui học mỗi ngày!</p>
 
 		</div>
@@ -105,7 +109,31 @@
 </main>
 
 
+<div id="disqus_thread"></div>
+<script>
+    
 
+
+    function getRandomInt(min, max) {
+      min = Math.ceil(min); 
+      max = Math.floor(max); 
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var disqus_config = function () {
+        const myRand = getRandomInt(99, 1000);
+    this.page.url = location.href;  
+    this.page.identifier = location.href + '#' + myRand; 
+    };
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://khoancatbetong-3.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 			</div>
 			

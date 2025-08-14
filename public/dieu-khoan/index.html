@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="vi">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Điều khoản và điều kiện - Khó ăn cát bê tông</title>
@@ -15,7 +15,6 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
 		
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EH4SHPH0LN"></script>
@@ -35,7 +34,7 @@
 	<div class="logo logo--mixed">
 		<a class="logo__link" href="/" title="Khó ăn cát bê tông" rel="home">
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/img/logo.png">
+					<img class="logo__img" src="/img/logo.png" alt="Logo KACBT" width="48" height="48">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">Khó ăn cát bê tông</div>
 					<div class="logo__tagline">Hướng dẫn làm Web từ số không</div>
@@ -115,7 +114,31 @@ Những bình luận quấy rối người khác sẽ bị xóa. Vui lòng tôn 
 </main>
 
 
+<div id="disqus_thread"></div>
+<script>
+    
 
+
+    function getRandomInt(min, max) {
+      min = Math.ceil(min); 
+      max = Math.floor(max); 
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var disqus_config = function () {
+        const myRand = getRandomInt(99, 1000);
+    this.page.url = location.href;  
+    this.page.identifier = location.href + '#' + myRand; 
+    };
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://khoancatbetong-3.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 			</div>
 			

@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Khó ăn cát bê tông</title>
-    <link>https://khoancatbetong.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Khó ăn cát bê tông</description>
     <generator>Hugo</generator>
     <language>vi</language>
-    <lastBuildDate>Tue, 08 Jul 2025 12:30:20 +0700</lastBuildDate>
-    <atom:link href="https://khoancatbetong.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Aug 2025 10:03:11 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web 1: làm một trang web đơn giản</title>
+      <link>http://localhost:1313/posts/web-1-lam-mot-trang-web-don-gian/</link>
+      <pubDate>Thu, 14 Aug 2025 10:03:11 +0700</pubDate>
+      <guid>http://localhost:1313/posts/web-1-lam-mot-trang-web-don-gian/</guid>
+      <description>&lt;p&gt;Thông qua bài này bạn đạt được các kiến thức sau đây:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tạo được một trang web đơn giản hết sức chỉ có chữ và chữ mà thôi&lt;/li&gt;&#xA;&lt;li&gt;Nắm được 2 thành phần quan trọng nhất của bất kỳ trang web nào&lt;/li&gt;&#xA;&lt;li&gt;Cách học hiệu quả của người không chuyên CNTT tự học sau nhiều lần thất bại&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bạn chỉ cần mở trình soạn thảo văn bản thô hoặc soạn thảo code (ví dụ &lt;a href=&#34;https://notepad-plus-plus.org/downloads/&#34;&gt;Notepad Plus Plus&lt;/a&gt;) để soạn:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bài 4: bắt đầu hành trình mới từ việc học từ đầu</title>
-      <link>https://khoancatbetong.com/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</link>
+      <link>http://localhost:1313/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</link>
       <pubDate>Tue, 08 Jul 2025 12:30:20 +0700</pubDate>
-      <guid>https://khoancatbetong.com/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</guid>
+      <guid>http://localhost:1313/posts/bai-4-hoc-hoi-tu-dau-nhu-tre-em/</guid>
       <description>&lt;p&gt;Có hơn 3 năm làm việc trong lĩnh vực web, từ đơn giản nhất như viết một số đoạn CSS để trang trí trang cho đến phát triển một số ứng dụng sử dụng nội bộ, cung cấp dịch vụ cho khách,&amp;hellip; nhưng giờ đây KACBT phải học hỏi lại từ đầu.&lt;/p&gt;&#xA;&lt;p&gt;Ai đó đã nói việc quên đi mọi thứ đã học, đã không còn và học cái mới là điều khó khăn. Quả đúng như vậy thật.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bài 3: tâm tình của một gã... hề</title>
-      <link>https://khoancatbetong.com/posts/bai-3-tam-tinh-cua-1-ga-he/</link>
+      <link>http://localhost:1313/posts/bai-3-tam-tinh-cua-1-ga-he/</link>
       <pubDate>Sun, 08 Jun 2025 11:25:39 +0700</pubDate>
-      <guid>https://khoancatbetong.com/posts/bai-3-tam-tinh-cua-1-ga-he/</guid>
+      <guid>http://localhost:1313/posts/bai-3-tam-tinh-cua-1-ga-he/</guid>
       <description>&lt;p&gt;Khi bạn không có ý định trở thành một chú hề nhưng trong cuộc đời lắm lúc bạn trở thành chú hề. Àh, nhưng đây là tui nói tui, hổng phải nói bạn đâu, đừng giựt mình.&lt;/p&gt;&#xA;&lt;p&gt;Chuyện này là sao?&lt;/p&gt;&#xA;&lt;p&gt;Chuyện này có thể ngắn gọn đó là một dạng brainrot (thối não). Tui cũng không rõ có phải vậy không, nên viết một bài dạng bà tám vớ vẩn chơi, không phải bài có thể học theo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bài 2: thử sử dụng Hugo để làm web</title>
-      <link>https://khoancatbetong.com/posts/bai-2-thu-su-dung-hugo/</link>
+      <link>http://localhost:1313/posts/bai-2-thu-su-dung-hugo/</link>
       <pubDate>Thu, 05 Jun 2025 09:50:04 +0700</pubDate>
-      <guid>https://khoancatbetong.com/posts/bai-2-thu-su-dung-hugo/</guid>
+      <guid>http://localhost:1313/posts/bai-2-thu-su-dung-hugo/</guid>
       <description>&lt;p&gt;Đây có thể nói rằng việc &lt;strong&gt;học lại từ đầu&lt;/strong&gt; là sự khó khăn. Những gì tui biết đều vô dụng.&lt;/p&gt;&#xA;&lt;p&gt;Làm lại web lần này tui quyết râm nói không với web động nó khiến tui mất quá nhiêu năng lượng cho việc xử lý nhiều thứ liên quan đến ngôn ngữ kịch bản PHP, nền tảng quản lý nội dung WordPress và nhiều thứ linh tinh khác.&lt;/p&gt;&#xA;&lt;p&gt;Kết quả là loay hoay với vấn đề kỹ thuật mà chẳng viết được những bài viết chất lượng. Mục đích và phương tiện bị nhầm lẫn với nhau khiến cho blog trôg chẳng có ra blog một chút nào mà nó trở thành một nơi đẻ thử nghiệm các thứ kỹ thuật về web. Như vậy, hoá ra có cái xe máy để đi lại thì trở thành anh thợ sửa xe, thật là chuyện chẳng hiểu nổi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bài 1: sự trở lại từ đống tro tàn</title>
-      <link>https://khoancatbetong.com/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</link>
+      <link>http://localhost:1313/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</link>
       <pubDate>Tue, 03 Jun 2025 08:40:39 +0700</pubDate>
-      <guid>https://khoancatbetong.com/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</guid>
+      <guid>http://localhost:1313/posts/bai-1-su-tro-lai-tu-dong-tro-tan/</guid>
       <description>&lt;p&gt;Trang web KACBT đã chết queo từ mấy tháng nay nên tui cần làm lại ngay từ đầu. Sau đây là một số dự định của tui ở thời điểm này:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Làm lại trang web dưới dạng web tĩnh để quên đi nỗi lo về nhiễm mã độc, cập nhật các phiên bản về CMS, ngôn ngữ kịch bản, cơ sở dữ liệu,&amp;hellip; rất phức tạp cho một blog cá nhân.&lt;/p&gt;</description>
     </item>
   </channel>

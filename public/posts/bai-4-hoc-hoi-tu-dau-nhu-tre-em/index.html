@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="vi">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bài 4: bắt đầu hành trình mới từ việc học từ đầu - Khó ăn cát bê tông</title>
@@ -15,7 +15,6 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
 		
 	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EH4SHPH0LN"></script>
@@ -35,7 +34,7 @@
 	<div class="logo logo--mixed">
 		<a class="logo__link" href="/" title="Khó ăn cát bê tông" rel="home">
 			<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="/img/logo.png">
+					<img class="logo__img" src="/img/logo.png" alt="Logo KACBT" width="48" height="48">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">Khó ăn cát bê tông</div>
 					<div class="logo__tagline">Hướng dẫn làm Web từ số không</div>
@@ -93,16 +92,47 @@
 		<div class="content post__content clearfix">
 			<p>Có hơn 3 năm làm việc trong lĩnh vực web, từ đơn giản nhất như viết một số đoạn CSS để trang trí trang cho đến phát triển một số ứng dụng sử dụng nội bộ, cung cấp dịch vụ cho khách,&hellip; nhưng giờ đây KACBT phải học hỏi lại từ đầu.</p>
 <p>Ai đó đã nói việc quên đi mọi thứ đã học, đã không còn và học cái mới là điều khó khăn. Quả đúng như vậy thật.</p>
-<p>Bữa giờ chưa làm được gì ngàoi việt học chút ít về Git để có thể đăng được bài lên trên site này. Thật là một hành trình gian nan.</p>
+<p>Bữa giờ chưa làm được gì ngoài học chút ít về Git để có thể đăng được bài lên trên site này. Thật là một hành trình gian nan. Ngày đầu làm ngon lành, ngày 2 quên béng phải mở tập ghi chép ra xem lại. Qua ngày 3, nhớ được 50% câu lệnh, còn lại vẫn phải xem lại sổ tay.</p>
+<p>Ví dụ: với lệnh <strong>git status</strong>, KACBT đã đọc được cái gì như:</p>
+<p><img src="/images/2025/git-status.png" alt="Lệnh git status" title="Kết quả lệnh git status"></p>
+<p>Một thứ &ldquo;mật mã Da Vinci&rdquo; khó hiểu cần phải tra cứu tài liệu để biết nó là cái gì.</p>
+<p>Một số thứ khiến KACBT cảm thấy khó khăn đó là hồi giờ không có quản lý phiên bản mà chỉ dùng biện pháp sao lưu nên cứ nghỉ Git là cái gì đó giống như file, thư mục. Nhưng thực sự không phải như vậy, phần mềm Git lưu trữ theo cấu trúc của riêng nó, gọi là repository. Ta không thể chép file, thư mục mà phải tương tác với kho chứa bằng các lệnh. Hơn nữa, git mặc định luôn có 2 phiên bản: 1 nằm ở local, 1 nằm ở server. Nghĩa là tui không thể làm việc trực tiếp với Github, Gitlab hoặc tương tự từ xa mà không có git ở local.</p>
 <p>Có những cái dễ với người này nhưng khó với người khác. Tui cũng không biết vì sao tui vọc web nhiều năm, cũng có biết lập trình tuy không siêu sao, có biết vè mạng mẽo này nọ nhưng nghịch Git thấy khó gì đâu luôn.</p>
 <p>Điều rất may mắn đó là tui sử dụng hệ điều hành họ Linux nên việc gõ lệnh rất thường xảy ra nên việc gõ thêm vài câu lệnh không gây trở ngại nhiều dù ban đầu gõ lệnh chưa thấy hiểu được, phải tra cứu và đọc các giải thích rất nhiều lần.</p>
+<p>Thiệt là điều vô nghĩa khi tui dành đế 4 bài chỉ để khiến bạn bực tức vì &ldquo;mở đề luân khởi&rdquo; dắt bạn đi lòng vòng mà việc này có khi chỉ tóm tắc lại bằng cụm từ: <strong>làm lại blog bằng web tĩnh</strong>.</p>
+<p>Dông dài mãi tui cũng cảm thấy chán ngán luôn nên xin mời bạn nhìn lên menu và click mục <a href="/web/">web căn bản</a>, <a href="/wp/">WordPress</a> hoặc <a href="/blog/">blog</a> tuỳ theo sở thích của bạn.</p>
+<p>Đây cũng xem như bài cuối của loạt bài dông dài chẳng mang đến nội dung nào./.</p>
 
 		</div>
 	</article>
 </main>
 
 
+<div id="disqus_thread"></div>
+<script>
+    
 
+
+    function getRandomInt(min, max) {
+      min = Math.ceil(min); 
+      max = Math.floor(max); 
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var disqus_config = function () {
+        const myRand = getRandomInt(99, 1000);
+    this.page.url = location.href;  
+    this.page.identifier = location.href + '#' + myRand; 
+    };
+
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://khoancatbetong-3.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 			</div>
 			
