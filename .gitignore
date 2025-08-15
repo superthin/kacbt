@@ -3,6 +3,7 @@ assets/
 content/
 data/
 hugo.toml
+publish.sh
 i18n/
 layouts/
 package.json
