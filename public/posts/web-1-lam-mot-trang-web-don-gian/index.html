@@ -100,30 +100,83 @@
 <p><em>Chú ý: không nhập các số thứ tự, đó là số thứ dự dòng do trình viết code tạo ra, không phải nội dung văn bản</em></p>
 <h3 id="bước-1-khởi-động---đánh-máy-vài-chục-dòng-code-html">Bước 1: khởi động - đánh máy vài chục dòng code HTML</h3>
 <p>Bạn cần đánh máy thủ công, đừng copy đâu đó có sẵn bởi vì đang học, học cái gì đó ban đầu cần phải ghi nhớ, có ghi nhớ mới có thể hiểu. Tui biết có nhiều bạn vì ban đầu học bằng video clip rồi làm theo như con vẹt, dẫn đến những gì họ tưởng là họ biết lại hoàn toàn là sự mơ hồ. Ngay khi tắt các video đi, tự làm lại một trang web đơn giản, họ bó tay và ngay cả khi có mạng, họ cũng chỉ biết copy những mà không hiểu, nên không phát triển được tí gì.</p>
-<p><img src="https://khoancatbetong.com/images/2025/head-html.jpg" alt="Phần head của file HTML" title="Thực ra trang web là file HTML"></p>
+<p><img src="https://khoancatbetong.com/images/2025/head-html.jpg" alt="Phần head của file HTML" title="Minh hoạ phần head của tài liệu HTML"></p>
 <p>lưu lại file với tên <strong>bai1.html</strong> vào một thư mục trên máy (không lưu ổ đĩa cloud vì không chắc dùng được khi thao tác file thông thường).</p>
 <p>Tiếp tục, lại gõ tiếp thêm đoạn code sau:</p>
 <p><img src="https://khoancatbetong.com/images/2025/body-html.jpg" alt="Phần body của file HTML" title="Phần body HTML"></p>
 <p><em>Tui không cần nhắc bạn lưu file, hãy luôn Ctrl + S để lưu khi có sự thay đổi khi thêm/ xoá/ sửa, kiến thức căn bản</em></p>
 <p>Như vậy file bạn có tổng cộng <strong>33 dòng</strong>, có những dòng trống không bắt buộc phải có nhưng tạo khoảng hở cho dễ đọc, dễ giải thích.</p>
 <p>Mở trình duyệt web lên bấm Ctrl + O (chữ o trong ò ó o, không phải số 0) và tìm đến file bai1.html để mở nó lên xem thử có gì? Nếu ra như sau:</p>
-<p><img src="https://khoancatbetong.com/images/2025/bai1-1.jpg" alt="Ảnh 1 bài 1" title="Trang web kết quả"></p>
+<p><img src="https://khoancatbetong.com/images/2025/bai1-1.jpg" alt="Kêt quả hiển thị trang web" title="Trang web kết quả"></p>
 <p>xin chúc mừng bạn đã sở hữu trong tay một trang web đầu tay. Nói theo kiểu Neil Armstrong thì <em>&ldquo;Đây là Một bước nhỏ trên trình soạn thảo code nhưng là một hành trình bạn tiến vào thế giới Web rộng mở&rdquo;</em></p>
 <h3 id="giải-thích">Giải thích:</h3>
-<p>Các dòng 1, 2, 4, 5, 6, 7, 8, 23, 25, 29, 31, 33 bạn sẽ sử dụng lại nhiều lần về sau như một khuôn mẫu cho mọi trang web.</p>
-<p><img src="https://khoancatbetong.com/images/2025/web1-trang-mau.png" alt="Ảnh trang web mẫu" title="Trang web mẫu"></p>
+<p>Các dòng 1, 2, 4, 5, 6, 7, 8, 23, 25, 29, 31, 33 bạn sẽ sử dụng lại nhiều lần về sau như một khuôn mẫu cho mọi trang web. Tuy nhiên, để tránh bạn bị choáng ngợp bởi thứ <em>mã hoá lạ lẫm</em> nên tạm thời chúng ta cắt tỉa bỏ các <em>dòng 9 đến 22</em> khoan xét đến, chỉ còn bản rút gọn sau:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-trang-mau.png" alt="Trang web mẫu thô sơ" title="Trang web mẫu"></p>
 <p>Phân tích hình trên:</p>
 <p><strong>Dòng 1:</strong> sửa chữ doctype thành DOCTYPE đọc cho quen mắt dù trong HTML không phân biệt chữ thường, chữ hoa nhưng trong nhiều trnag web thấy người ta viết DOCTYPE hơn là doctype.</p>
 <p><strong>Dòng 2:</strong> lang=&quot;&quot; sẽ được thay bằng lang=&ldquo;en&rdquo;, lang=&ldquo;de&rdquo;, lang=&ldquo;vi&rdquo; tuỳ theo nội dung trang web đang trình bày trên ngôn ngữ nào. Tra cứu <a href="https://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> để biết 2 ký tự dùng làm giá trị cho thuộc tính lang của thẻ html.</p>
 <p><strong>Dòng 4:</strong> luôn viết như vậy, nó là thẻ HEAD bắt buộc của 1 tài liệu HTML.</p>
 <p><strong>Dòng 5, 6:</strong> viết chính xác như vậy, không thay đổi gì thêm. Dòng 5 cho biết mã hoá HTML theo bảng mã Unicode, hỗ trợ được hầu hết các ngôn ngữ trên thế giới. Dòng 6 cho phép trang web hiển thị tốt trên màn hình điện thoại, nếu không có dòng này trang web sẽ hiển thị theo kiểu cho máy tính trên điện thoại dẫn đến rất khó đọc.</p>
 <p><strong>Dòng 7:</strong> hiện nay tiêu đề còn trống nên bạn cần đìên gì đó vào. Khi có thông tin, đây sẽ là hiển thị ở tab trình duyệt, và cũng hiện thị khi bookmark trang. Ví dụ, bạn sẽ có nội dung:</p>
-<p><img src="https://khoancatbetong.com/images/2025/trang-web-dau-tay.jpg" alt="Trang web đầu tay tiêu đề" title="Tiêu đề trang web"></p>
+<p><img src="https://khoancatbetong.com/images/2025/trang-web-dau-tay.jpg" alt="Tiêu đề trang web" title="Tiêu đề trang web"></p>
 <p>Hãy thay <strong>Trang web đầu tay của tui</strong> bằng cụm từ của riêng bạn để chứng tỏ bạn hiểu bài, không học vẹt.</p>
 <p><strong>Dòng 8:</strong> để nguyên như vậy nhưng cần làm thêm các việc sau: giả sử thư mục chứa web là D:\MyWeb, bạn cần tạo thư mục con css bên trong nó, vào thư mục css tạo file <strong>style.css</strong> có nội dung tạm thời rỗng (không có gì).</p>
 <p><strong>Dòng 9:</strong> giống như vậy. Đến đây bạn chợt hiểu rằng dòng này bà con với dòng 4. Tui giải thích: dòng 4 được xem là mở đầu của phần HEAD của một tài liệu HTML, và dòng 9 đánh dấu sự kết thúc của phần HEAD.</p>
 <p><strong>Dòng 11, 15, 17:</strong> để nguyên như vậy.</p>
 <p><strong>Dòng 13:</strong> để nguyên như vậy, nhưng bên trong thư mục <strong>D:\MyWeb</strong> tạo thư mục <strong>js</strong> và tạo file <strong>app.js</strong> nằm trong thư mục <strong>js</strong>, nội dung file app.js tạm thời rỗng.</p>
+<hr>
+<h4 id="ghi-nhớ">Ghi nhớ:</h4>
+<ul>
+<li>Một tài liệu HTML chứa toàn thẻ (tag). Gọi chúng là thẻ HTML để phân biệt với thẻ ở các ngôn ngữ khác, không phải ngôn ngữ HTML.</li>
+<li>Tài liệu HTML thực sự chỉ là một văn bản thô chứa các thẻ nếu không dùng trình duyệt web để mở nó.</li>
+<li>Có một thẻ HTML có tên là&hellip; HTML. Điều này có vẻ là giống với một bạn tên là Nguyễn Thị Tên, để rồi hỏi: bạn tên là gì? Tui tên là Tên.</li>
+<li>Để tránh nhầm lẫn, từ <strong>thẻ</strong> để chỉ các thẻ HTML nói chung. Còn <strong>bắt đầu tài liệu HTML</strong> để nói về việc bạn mở thẻ tên là HTML và đóng nó để chuẩn bị cho các thẻ khác xuất hiện bên trong.</li>
+</ul>
+<hr>
+<p>Đến lúc này, không cần phải bàn cãi gì, khi tui nói tạo một tài liệu HTML, các việc sau đây là bạn phải hoàn thành:</p>
+<ul>
+<li>Mở trình soạn thảo lên gõ dòng <!DOCTYPE html> và lưu lại nó ten-file-gi-do.html trong thư mục D:\MyWeb của bạn</li>
+<li>Phát triển nội dung file này trông giống hệt như sau:</li>
+</ul>
+<p><img src="https://khoancatbetong.com/images/2025/web1-file-mau-html.jpg" alt="Một file HTML mẫu" title="File mẫu HTML"></p>
+<ul>
+<li>Bạn không <em>vô tri</em> đến mức gõ phím như con vẹt đến mức không biết thay đổi tiêu đề <em>Tiêu đề trang web hiện trên tab trình duyệt</em> (ở dòng 7) thành cái gì đó khác của riêng bạn. Bạn cũng đừng dại dột gõ dòng 12 vào, ý tui chỉ muốn bạn để trỏ chuột chỗ đó sẵn sàng cho nội dung.</li>
+</ul>
+<p>Vậy thì &ldquo;thiết kế web&rdquo; hoặc &ldquo;phát triển trang web&rdquo; gần như không thay đổi gì (ngoại trừ dòng 7) ở dòng 1 đến 10. Tức là phần:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-mau-head.png" alt="Một HEAD của HTML mẫu" title="File mẫu HTML"></p>
+<p>sẽ để nguyên si như vậy cho hầu hết tài liều HTML.</p>
+<p>Việc <em>phát triển nội dung</em> nghe lạ tai, thực sự, tui muốn bạn <strong>đánh máy</strong> lại toàn bộ nội dung ở trên, làm ít nhất 20 lần để bạn có thể thuộc, tránh phụ thuộc vào Google hoặc phải copy mẫu ở đâu đó. Tại sao phải đánh máy lại, bạn cho rằng tốn nhiều thời gian vô ích. Tui nói luôn: nếu bạn không thuộc bảng cửu chương, bạn làm toán nhân bằng cách nào? Đừng cố cãi với tui rằng bạn sẽ dùng máy tính cho phép nhân có kết quả nhỏ hơn 100. Nếu bạn cố ngang bướng muốn copy cho nhanh như vậy, việc học web nói riêng này chẳng đi đến đâu, và việc học những thứ khác nói chung cũng chỉ mang lại cho bạn những kiến thức và kỹ năng giả. Bạn biết rồi đó, hàng giả gây chết người, kiến thức giả có thể làm hỏng bạn và cả tương lai các thế hệ con cháu bạn.</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-body-template.png" alt="Một BODY của HTML mẫu" title="File mẫu HTML phần BODY"></p>
+<p>HTML được gọi là ngôn ngữ đánh dấu siêu văn bản, rồi bạn sẽ biết tại sao người ta gọi nó như vậy. Các thẻ là dạng kiểu đánh dấu, còn siêu văn bản là các liên kết mắt xích với nhau. Một cách tổng quát, ta thấy cấu trúc HTML rõ ràng:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-phan-tich-cau-truc.png" alt="Cấu trúc 1 tài liệu HTML" title="Cấu trúc 1 tài liệu HTML"></p>
+<p>Trong thực tế bạn gặp nhiều trang web rất phức tạp, nhiều hình ảnh, trang trí các kiểu và trang có độ dài nhiều trang màn hình. Nhưng, tựu chung lại chúng cũng chỉ có 2 phần là HEAD và BODY như minh hoạ trên.</p>
+<ul>
+<li>
+<p>Phần HEAD chủ yếu là khai báo tài nguyên và các siêu dữ liệu meta data dành cho trình duyệt web và các con bọ thu thập tin tức trên Internet, liên quan đến SEO mà không hiển thị trực tiếp nội dung lên màn hình.</p>
+</li>
+<li>
+<p>Phần BODY là nơi trình bày các thẻ có tác dụng hiển thị trực tiếp trên màn hình khi duyệt web, các thẻ có 2 nhiệm vụ chính là giúp tạo bố cục cho trang web để tạo ra mỹ thuật, và nhiệm vụ còn lại là chứa nội dung (gồm có văn bản text, bảng biểu, mẫu thu thập thông tin, hình ảnh image, đa phương tiện như âm thanh, video).</p>
+</li>
+</ul>
+<p>Gọn lại: từ giờ trở đi, khi làm bất cứ trang web nào trong loạt bài học tập nào, bạn cũng đánh máy <em>15 dòng thần thánh</em> đã được minh hoạ ở trên. Ở dòng 7 sửa lại để phù hợp với chủ đề trang web ngày hôm đó, còn dòng 12 sẽ rỗng, đặt con trỏ text tại đó để bạn đánh máy, để &ldquo;bày bừa&rdquo; các thẻ để thể hiện ý tưởng về một trang web.</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-the-mo-dong.png" alt="Một thẻ HTML phân tích" title="Xẻ thịt thẻ ra xem"></p>
+<p>Từ cái hình trông đến kinh dị trên, thật làm bạn hoảng loạn không hiểu gì, tui bồi thêm cái ảnh:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-cu-phap-tong-quat-the.png" alt="Cú pháp tổng quát thẻ" title="Cú pháp tổng quá của các thẻ"></p>
+<p>Tui dám chắc rằng nếu bạn chú tâm ngồi gõ phím lóc cóc những <em>dòng mã vô tri</em> trên, thể nào trong não bạn cũng toát ra câu hỏi kiểu như: những cái dấu nhỏ, tới chữ gì đó tiếng Anh, rồi đến dấu lớn tạo thành cái gì đó như hình&hellip; con thuyền, rồi có một đoạn chữ gì đó có vẻ người đọc hiểu được, rồi sau đó lại như hình con thuyền nhưng lại có một dấu vạt chéo ở phía bên trái&hellip;. tui đang làm cái gì đây?</p>
+<p>Trong quá trình soạn file HTML, có những ghi chút bạn đọc được nhưng nó không phải là nội dung hoặc thành phần cấu thành bố cục trang web khi hiển thị trên trình duyệt, người ta gọi đó là comment (ghi chú). Để thực hiện ghi chú trong HTML, bạn bắt đầu với <em>dấu nhỏ, dấu chấm cảm, hai dấu trừ tiếp theo, dòng ghi chú của bạn, kết thúc ghi chú bằng hai dấu trừ liên tiếp và dấu lớn cuối cùng</em>, nếu không hiểu, hãy xem hình:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-comment.png" alt="Ghi chú comment trong HTML" title="Comment trong HTML"></p>
+<h4 id="một-số-đồ-chơi-cần-thiết-để-bạn-tiếp-tục-công-việc-xây-dựng-trang-web">Một số đồ chơi cần thiết để bạn tiếp tục công việc xây dựng trang web:</h4>
+<p>Có một số thẻ tui cung cấp ở đây thường xuyên được sử dụng trong mọi trang HTML (không kể đến các thẻ HTML, HEAD, TITLE, BODY hầu như chỉ dùng một lần cho mọi tài liệu HTML), các thẻ này có thể dùng đi dùng lại nhiều lần mà không &ldquo;vi phạm&rdquo; quy tắc nào. Nhưng việc sử dụng sao cho nghệ thuật lại là chuyện khác.</p>
+<p><strong>Chú ý:</strong> tui tự đặt quy tắc chứ hổng có phải theo trường phái nào đó là tui dùng chữ thẻ và sẽ viết in hoa thẻ lên, nhưng bạn chỉ viết thường mà thôi. Ví dụ luôn: tạo thẻ H1, bạn ngay lập tức tạo ra một cái như sau:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-tieu-de-h1.png" alt="Thẻ tiêu đề cấp 1" title="Minh hoạ thẻ H1"></p>
+<p>Thử lần nữa, thẻ IMG, tức là bạn sẽ tạo ra (đánh máy ở phần BODY - khu vực dòng 12 đã nhắc ở trên):</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-the-img.png" alt="Thẻ img hình ảnh" title="Minh hoạ thẻ IMG"></p>
+<p>Tui nói, tạo một ảnh banner-jpg với kích thước 520x300 pixel, bạn đánh máy ngay tắp lự:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-img-co-thuoc-tinh.png" alt="Thẻ img có thuộc tính căn bản" title="Thẻ IMG có các thuộc tính căn bản"></p>
+<p>Tương tự, tạo DIV với class khung-vien, bạn đánh máy:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-div-class.png" alt="Thẻ div có thuộc tính" title="Thẻ div có thuộc tính class"></p>
+<p>Khi nghe tui hét lên <em>tạo một đoạn văn</em>, bạn cũng sớm phát hiện ra đoạn văn là paragraph, tức thẻ P:</p>
+<p><img src="https://khoancatbetong.com/images/2025/web1-the-p.png" alt="Thẻ p trần trụi" title="Thẻ P không có thuộc tính"></p>
 <h3 id="bước-2-phát-triển-trang-web-theo-kiểu-bày-đồ-đạc-bừa-bộn-khắp-căn-phòng">Bước 2: phát triển trang web theo kiểu &ldquo;bày đồ đạc bừa bộn khắp căn phòng&rdquo;</h3>
 <hr>
 <h3 id="kết-luận-1-file-html-khi-được-trình-duyệt-đọc-và-trình-diễn-lên-màn-hình-gọi-là-trang-web">Kết luận: 1 file HTML khi được trình duyệt đọc và trình diễn lên màn hình gọi là <strong>trang web</strong></h3>
