@@ -3,6 +3,7 @@ assets/
 content/
 data/
 hugo.toml
+.hugo_build.lock
 publish.sh
 i18n/
 layouts/
