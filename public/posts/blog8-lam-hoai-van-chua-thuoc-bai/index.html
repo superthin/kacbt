@@ -1,0 +1,47 @@
+<!doctype html><html class=no-js lang=vi><head><meta charset=UTF-8><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content="no-cache"><meta http-equiv=Expires content="Tue, 21 Aug 2001 00:00:00 GMT"><meta name=viewport content="width=device-width,initial-scale=1"><title>Bài 8: làm hoài vẫn chưa thuộc bài - Khó ăn cát bê tông</title><script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script><meta name=description content="Bài 8: làm hoài vẫn chưa thuộc bài"><meta name=author content="KACBT"><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//fonts.gstatic.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preconnect href=https://fonts.googleapis.com><link rel=preload href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" as=style><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"><link rel=stylesheet href=https://khoancatbetong.com/css/style.css><link rel="shortcut icon" href=https://khoancatbetong.com/favicon.ico><script async src="https://www.googletagmanager.com/gtag/js?id=G-EH4SHPH0LN"></script><script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-EH4SHPH0LN');
+	</script></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=https://khoancatbetong.com/ title="Khó ăn cát bê tông" rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=https://khoancatbetong.com/img/logo.png alt="Logo KACBT" width=48 height=48></div><div class="logo__item logo__text"><div class=logo__title>Khó ăn cát bê tông</div><div class=logo__tagline>Hướng dẫn làm Web từ số không</div></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
+<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=https://khoancatbetong.com/><span class=menu__text>Trang nhà</span></a></li><li class=menu__item><a class=menu__link href=https://khoancatbetong.com/web/><span class=menu__text>Web căn bản</span></a></li><li class=menu__item><a class=menu__link href=https://khoancatbetong.com/wp/><span class=menu__text>WordPress</span></a></li><li class=menu__item><a class=menu__link href=https://khoancatbetong.com/blog/><span class=menu__text>Blog</span></a></li><li class=menu__item><a class=menu__link href=javascript:doRefresh();><span class=menu__text title="Bấm Ctrl + Shift + R tốt hơn">Refresh</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class=main role=main><article class=post><header class=post__header><h1 class=post__title>Bài 8: làm hoài vẫn chưa thuộc bài</h1></header><div class="content post__content clearfix"><p>Có những sự việc xảy ra trong cuộc sống, trong công việc tuy đơn giản nhưng đôi lúc lại là &ldquo;điểm mù&rdquo; đối với não của bạn. Bài này chém gió về điểm mù đó để nhìn nhận một thực tại rằng &ldquo;nhân vô thập toàn&rdquo;. Từ đó, mỗi người cần thận trọng trong cách lý luận theo kiểu người khác làm được ta làm được hoặc ta làm được người khác làm được khi đối mặt đối với một sự việc nào đó. Có những cái với người này là dễ dàng, với người khác là không thể cho dù có nỗ lực kiểu gì đi nữa.</p><p>Bài này tuy là chém gió nhưng mang hơi hướm kỹ thuật, nên nó sẽ chán ngắt nếu bạn không hiểu VPS là gì, remote bằng gõ lệnh ra sao.</p><h2 id=vấn-đề-ssh-không-dùng-mật-khẩu>Vấn đề SSH không dùng mật khẩu</h2><p>KACBT đảm nhận quản trị đám server và VPS cho khách hàng, có thời điểm con số này nếu đếm cái có gần 50 cả thảy. Vì vậy, việc phải remote vào server là việc gần như tuần nào cũng thực hiện vài bận. Những VPS chạy hệ điều hành Windows thì không nói làm gì, nó có mstsc khá đơn giản, dễ sử dụng. Trong khi đó, với những &ldquo;con máy&rdquo; chạy một distro Linux nào đó sẽ phải vất vả hơn vì phải &ldquo;oánh lệnh mỏi tay&rdquo;.</p><p>Mặc định ban đầu khi khách hàng giao VPS cho KACBT quản trị sẽ dùng mật khẩu. Khách thường forward luôn cái email mà bên cho thuê gửi và KACBT tiếp nhận và quản, họ không còn phải lăn tăn gì chuyện VPS ra làm sao, chỉ sử dụng các dịch vụ/ phần mềm chạy trên đó mà thôi.</p><p>Cách dùng mật khẩu (Password Authentication) tuy đơn giản nhưng kém an toàn, dễ bị hắc cơ mò ra và quậy banh nóc server cả lên. Chính vì thế, việc đâu tiên cần làm: phải chuyển sang dùng key, gọi đầy đủ là <strong>Public Key Authentication</strong>. Cách thức: thay vì dùng mật khẩu, tạo sẵn chìa khoá để khi kết nối khỏi phải gõ mật khẩu, vừa mất công gõ, khả năng sai sót cao lại kém an toàn.</p><p>Chìa khoá sẽ gồm có khoá công cộng <strong>public key</strong> và khoá riêng tư/ cá nhân <strong>private key</strong>. Như tên gọi, khoá công cộng có thể lộ ra mà không lo mất an toàn, dễ hình dung trong đời thật là nó khá giống cái ổ khoá trên cửa nhà bạn, còn khoá riêng đó là chìa khoá của bạn, cần giữ kỹ.</p><p>Vì có lúc phải cập nhật hàng loạt máy cùng lúc nên KACBT cũng có sử dụng nhanh kết nối mật khẩu từ máy này qua máy kia mà không còn dùng client ngay trên máy desktop mình ngồi. Chính vì thế mà có sự mù mờ giữa client và server. Do đó, bài này note lại để có thể dùng về sau cho nhanh.</p><h2 id=ghi-lại-các-bước-cho-dễ-nhớ>Ghi lại các bước cho dễ nhớ</h2><ol><li><p>Đầu tiên, ở client (vì KACBT dùng LinuxMint nên khá dễ) - tức máy đang ngồi (nó cũng có thể là một con VPS / server từ xa nào đó, không quan trọng, miễn nó đang đóng vai trò client) tạo cặp khoá public và private với lệnh: <code>ssh-keygen -t ed25519</code>. Lệnh này sẽ tạo ra 2 file: id_ed25519 (private key) và id_ed25519.pub (public key) mặc định sẽ nằm trong thư mục ~/.ssh của user hiện tại.</p></li><li><p>Gõ lệnh: <code>ssh-copy-id username@remote_host</code> : thay user và địa chỉ IP của server vô username và remote_host, dùng thông số mà trước đó dùng mật khẩu đã kết nối thành công qua lệnh ssh. Lệnh này sẽ hỗ trợ việc chép file lên server, nối key vào file ~/.ssh/authorized_keys nằm trên server. Ta cũng có thể dùng lệnh rsync, scp để chép nhưng phải nhớ cat vào file ~/.ssh/authorized_keys sau khi chép lên server.</p></li><li><p>Ở client gõ lệnh: <code>vi ~/.ssh/config</code> để mở file ra, thêm vào một khối trông giống như sau:</p></li></ol><p><img src=https://khoancatbetong.com/images/2025/blog8-ssh-config.png alt="Cấu hình SSH dùng public key" title="Cấu hình SSH với public key"></p><ol start=4><li><p>Kết nối vào server gõ lệnh: <code>/etc/ssh/sshd_config</code> và thiết lập giá trị <strong>PasswordAuthentication no</strong> và <strong>PubkeyAuthentication yes</strong>.</p></li><li><p>Đừng quên khởi động lại SSH Server trên server với lệnh: <code>sudo systemctl restart sshd</code></p></li></ol><p>Giờ đây, chỉ cần gõ ssh bulldog đã có thể thưởng thức thành quả:</p><p><img src=https://khoancatbetong.com/images/2025/blog8-ssh-ket-noi-thanh-cong.png alt="SSH dùng public key" title="SSH thành công với public key"></p><p>Lần sau, KACBT chỉ cần vào đọc ở đây thay vì chạy loạn lên với các bài hướng dẫn hoặc AI trả lời có sai sót.</p><p>Túm lại, hãy xem chuyện hay dở ở đời có giống chuyện bắt con cá leo cây?</p></div></article></main><div id=disqus_thread></div><script>
+    function getRandomInt(min, max) {
+      min = Math.ceil(min); 
+      max = Math.floor(max); 
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var disqus_config = function () {
+        const myRand = getRandomInt(99, 1000);
+    this.page.url = location.href;  
+    this.page.identifier = location.href + '#' + myRand; 
+    };
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://khcatbtong.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></div></div><footer class=footer><div class="container footer__container flex"><div class=footer__links><a class=footer__link href=https://khoancatbetong.com/dieu-khoan/>Điều khoản và điều kiện</a> | <a class=footer__link href=https://khoancatbetong.com/chinh-sach/>Chính sách bảo mật</a></div><div class=footer__copyright><span style=color:#fefe>&copy; 2025 Khó ăn cát bê tông.</span>
+<span class=footer__copyright-credits><a href="https://my.azdigi.com/aff.php?aff=1565">KACBT</a></span></div></div></footer><div class=blur-overlay><span class=spinner></span></div><script>
+	async function fetchPage() {
+		await fetch( location.href + '?v=' + Date.now() )
+			.then(x => x.text())
+			.then(y => {
+				const htmlString = y.toString();
+				const regex = /<body[^>]*>([\s\S]*)<\/body>/im;
+				const match = htmlString.match(regex);
+				if (match && match[1]) {
+				    document.body.innerHTML = match[1];
+				}
+			});
+	}
+
+	function doRefresh() {
+		const w = document.querySelector('.blur-overlay');
+		w.style.display = 'block';
+		setTimeout(() => {
+			fetchPage();
+		}, 1000);
+	}
+</script></div><script async defer src=https://khoancatbetong.com/js/menu.min.js></script></body></html>
